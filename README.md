@@ -1,6 +1,8 @@
 # use-element-position
 
-`use-element-position` is a custom React hook that allows developers to easily track the position of a DOM element within the viewport. This hook is particularly useful for implementing features like lazy loading, animations, and conditional rendering based on an element's visibility.
+`react-use-element-position` is a custom React hook that allows developers to easily track the position of a DOM element within the viewport. This hook is particularly useful for implementing features like lazy loading, animations, and conditional rendering based on an element's visibility.
+
+This package is specially helpfull when you have an absolutely positioned element from a third party package that does not have a relatively positioned parent element and you want to position that absolutely positioned element to an element from your code. You can simply get the bounding rect of your element and position the absolute positioned element using the rect.
 
 ## Features
 
@@ -13,17 +15,17 @@
 To install the package, use npm or yarn:
 
 **npm**
-`npm install use-element-position`
+`npm install react-use-element-position`
 
 **yarn**
-`yarn add use-element-position`
+`yarn add react-use-element-position`
 
 
 Here’s a simple example of how to use the use-element-position hook in a React component:
 
 ```
 import React from 'react';
-import useElementPosition from 'use-element-position';
+import useElementPosition from 'react-use-element-position';
 
 const MyComponent = () => {
   const [rect, ref] = useElementPosition();
