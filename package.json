@@ -1,0 +1,20 @@
+{
+  "name": "react-use-element-position",
+  "version": "1.0.0",
+  "description": "A react package that returns a custom React hook that simplifies tracking the position of a DOM element within the viewport. It provides developers with an easy way to access the element's dimensions and position in real-time, utilizing the Intersection Observer API for optimal performance. This hook is ideal for scenarios where you need to implement effects based on an element's visibility, such as lazy loading, animations, or conditional rendering.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talha7t/react-use-element-position.git"
+  },
+  "keywords": ["React", "getBoundingClientRect", "bounding client rect"],
+  "author": "TJ7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talha7t/react-use-element-position/issues"
+  },
+  "homepage": "https://github.com/talha7t/react-use-element-position#readme"
+}
